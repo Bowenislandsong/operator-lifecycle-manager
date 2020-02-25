@@ -24,7 +24,7 @@ require (
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/sys v0.0.0-20191210023423-ac6580df4449 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
-	google.golang.org/grpc v1.27.0
+	google.golang.org/grpc v1.27.1
 	gopkg.in/yaml.v2 v2.2.4
 	helm.sh/helm/v3 v3.1.1
 	k8s.io/api v0.17.2
@@ -46,6 +46,8 @@ replace (
 	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.2+incompatible // indirect from helm.sh/helm/v3 v3.1.1
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20200217161739-c99157bc6492
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b
+	github.com/operator-framework/api => ../api
+	github.com/operator-framework/operator-registry => ../operator-registry
 	github.com/prometheus/client_golang => github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
 
 	// Pin to kube 1.16

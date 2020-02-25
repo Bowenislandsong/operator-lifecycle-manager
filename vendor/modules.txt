@@ -231,7 +231,7 @@ github.com/gogo/protobuf/sortkeys
 # github.com/golang-migrate/migrate/v4 v4.6.2
 github.com/golang-migrate/migrate/v4/source
 github.com/golang-migrate/migrate/v4/source/file
-# github.com/golang/groupcache v0.0.0-20191027212112-611e8accdfc9
+# github.com/golang/groupcache v0.0.0-20181024230925-c65c006176ff
 github.com/golang/groupcache/lru
 # github.com/golang/mock v1.3.1
 github.com/golang/mock/gomock
@@ -279,7 +279,7 @@ github.com/gregjones/httpcache
 github.com/gregjones/httpcache/diskcache
 # github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 github.com/grpc-ecosystem/go-grpc-prometheus
-# github.com/hashicorp/golang-lru v0.5.3
+# github.com/hashicorp/golang-lru v0.5.1
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
 # github.com/huandu/xstrings v1.2.0
@@ -356,12 +356,12 @@ github.com/openshift/client-go/config/informers/externalversions/config
 github.com/openshift/client-go/config/informers/externalversions/config/v1
 github.com/openshift/client-go/config/informers/externalversions/internalinterfaces
 github.com/openshift/client-go/config/listers/config/v1
-# github.com/operator-framework/api v0.0.0-20200120235816-80fd2f1a09c9
+# github.com/operator-framework/api v0.0.0-20200120235816-80fd2f1a09c9 => ../api
 github.com/operator-framework/api/pkg/validation
 github.com/operator-framework/api/pkg/validation/errors
 github.com/operator-framework/api/pkg/validation/interfaces
 github.com/operator-framework/api/pkg/validation/internal
-# github.com/operator-framework/operator-registry v1.5.10
+# github.com/operator-framework/operator-registry v1.5.10 => ../operator-registry
 github.com/operator-framework/operator-registry/pkg/api
 github.com/operator-framework/operator-registry/pkg/api/grpc_health_v1
 github.com/operator-framework/operator-registry/pkg/client
@@ -540,7 +540,7 @@ google.golang.org/appengine/urlfetch
 # google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 google.golang.org/genproto/googleapis/api/annotations
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.27.0
+# google.golang.org/grpc v1.27.1
 google.golang.org/grpc
 google.golang.org/grpc/attributes
 google.golang.org/grpc/backoff
